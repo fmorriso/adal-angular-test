@@ -1,12 +1,18 @@
-# AdalAngularTest
+# ADAL Angular Test
+A test of ADAL-TS using Angular 4.1.2 and Angular-CLI 1.0.3
+
+The best way to run this application is via [JetBrains WebStorm](www.jetbrains.com/webstorm)
+which as wonderful, built-in support for Angular, Angular-CLI and npm.
 
 ## References
+
+This example is based on an older example that was way over engineered and ultimately did not work, probably because the sample credentials no longer work.
 
 [ADAL TS Consumer](https://github.com/HNeukermans/adal-ts-consumer)
 
 [ADAL-TS](https://github.com/HNeukermans/adal-ts)
 
-## Changes Needed
+## Changes Needed To Run
 
 Go to `app.component.ts` and modify the ADAL configuration
 
