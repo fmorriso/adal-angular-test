@@ -1,0 +1,9 @@
+<h1>
+  {{title}}
+</h1>
+<div>
+  <button [disabled]="disableLogin" (click)="login();">Login</button>
+  <button (click)="getUser()">getUser</button>
+  <button [disabled]="disableLogout"  (click)="logout()">logout</button>
+</div>
+<router-outlet></router-outlet>
